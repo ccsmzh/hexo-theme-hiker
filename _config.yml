@@ -31,7 +31,7 @@ avatar:
 home_background_image:
   enable: true
 #  url: [css/images/home-bg.jpg, css/images/sample.jpg, css/images/pose.jpg]
- url: [css/images/bg_2.jpg]
+  url: [css/images/bg_2.jpg]
 home_logo_image:
   enable: false
   border: false
