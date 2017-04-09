@@ -145,7 +145,8 @@ html{
 .homelogoback>h1>a {
     color: #fff;
     letter-spacing: 2px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    font-family: Helvetica Neue,sans-serif;
 }
     
 .thumb{
