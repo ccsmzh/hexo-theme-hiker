@@ -19,11 +19,7 @@
         title = __('tag') + ': ' + page.tag;
     }
     %>
-    <title>
-        <% if (title){ %>
-        <%= __(title.toLowerCase()) %> |
-        <% } %>
-        <%= config.title %></title>
+    <title><% if (title){ %><%= __(title.toLowerCase()) %> |<% } %><%= config.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <% if (page.keywords){ %>
     <meta name="keywords" content="<%- page.keywords %>"/>
@@ -52,8 +48,6 @@
     <% } %>
     <link rel="icon"
           href="<%= config.root %> <% if (theme.avatar.url){ %> <%- theme.avatar.url %> <% } else { %>css/images/avatar.jpg<% } %>">
-    <!--<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200" rel="stylesheet">-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet"-->
           <!--type="text/css">-->
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <style type="text/css">
