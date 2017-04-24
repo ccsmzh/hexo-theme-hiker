@@ -48,8 +48,7 @@
     <% if (theme.rss){ %>
     <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
     <% } %>
-    <link rel="icon"
-          href="<%= config.root %> <% if (theme.avatar.url){ %> <%- theme.avatar.url %> <% } else { %>css/images/avatar.jpg<% } %>">
+    <link rel="icon" href="<%= config.root %><% if (theme.avatar.url){ %><%- theme.avatar.url %><% } else { %>css/images/avatar.jpg<% } %>">
           <!--type="text/css">-->
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <style type="text/css">
